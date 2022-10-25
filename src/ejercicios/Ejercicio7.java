@@ -22,6 +22,14 @@ public class Ejercicio7 {
         System.out.println("Bienvenido al juego 'el número secreto'");
         System.out.println("Una vez presiones 'enter' se generará un número aleatorio del 1 al 100");
         System.out.println("Tendrás que adivinarlo, si el número es mayor te lo dirá y si es menor también");
+        System.out.println("Cuando lo adivines el programa terminará");
+        System.out.println("¡Buena Suerte!");
+
+        // ! Pulsar enter para empezar
+        read.next();
+
+        // ? Triple salto de Linea
+        System.out.println();System.out.println("---------------------------------------");System.out.println();
 
         // ! Bucle While
         while (resultado != resultadoUsuario){
