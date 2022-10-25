@@ -12,7 +12,7 @@ public class Ejercicio6 {
         // ? Programa el cual pida las edades de los alumnos, tras introducir un numero negativo mostrará la suma de las edades, la media, el nº de alumnos y cuantos son mayores de edad
         // ^ Declaramos la variable edad, resultado, contadorAlumno, contadorMayor
         byte edad = 0;
-        long contadorAlumno = -1, contadorMayor = -1;
+        long contadorAlumno = -1, contadorMayor = 0;
         double resultado = 0;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
