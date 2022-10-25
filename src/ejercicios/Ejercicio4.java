@@ -1,3 +1,6 @@
+// TESTS
+// = 
+
 package ejercicios;
 
 // ? Importamos la clase Scanner y Locale
@@ -24,7 +27,7 @@ public class Ejercicio4 {
             if (num == 0){
                 // ? Triple salto de Linea
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
-                
+
                 // ! Mostramos el fin del Programa
                 System.out.println("Fin del Programa");
             } else if (num % 2 == 0){
