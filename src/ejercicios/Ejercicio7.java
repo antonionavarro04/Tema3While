@@ -24,6 +24,8 @@ public class Ejercicio7 {
         System.out.println("Tendrás que adivinarlo, si el número es mayor te lo dirá y si es menor también");
         System.out.println("Cuando lo adivines el programa terminará");
         System.out.println("¡Buena Suerte!");
+        System.out.println();
+        System.out.println("Presiona 'enter' para comenzar");
 
         // ! Pulsar enter para empezar
         read.next();
