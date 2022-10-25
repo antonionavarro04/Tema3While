@@ -39,10 +39,7 @@ public class Ejercicio7 {
             // ! Pedimos el numero
             System.out.print("Introduce un número: ");
             resultadoUsuario = read.nextInt();
-
-            // ? Salto de linea
-            System.out.println();
-
+            
             // ! Comprobamos si es mayor o menor. Tambien puede haberlo acertado a la primera o haberse rendido
             if (resultadoUsuario == -1){ // * Si se rinde
                 System.out.println("---------------------------------------");System.out.println();
@@ -55,10 +52,13 @@ public class Ejercicio7 {
                 System.out.println("El numero " + resultadoUsuario + " es menor que el numero a adivinar");
             } else { // * Si es igual
                 // ? Doble salto de Linea
-                System.out.println("---------------------------------------");System.out.println();
-
+                System.out.println();System.out.println("---------------------------------------");System.out.println();
+                
                 System.out.println("Has acertado el numero");
             }
+
+            // ? Salto de linea
+            System.out.println();
         }
 
         // ^ Cerramos el Scanner

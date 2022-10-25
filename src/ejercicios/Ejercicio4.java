@@ -26,10 +26,7 @@ public class Ejercicio4 {
             // ! Comprobamos si es par o impar
             if (num == 0){
                 // ? Triple salto de Linea
-                System.out.println();System.out.println("---------------------------------------");System.out.println();
-
-                // ! Mostramos el fin del Programa
-                System.out.println("Fin del Programa");
+                System.out.println();System.out.println("---------------------------------------");
             } else if (num % 2 == 0){ // * Si es par, dará 0
                 System.out.println("El numero " + num + " es par");
             } else { // * Si no es par, dará 1
@@ -38,6 +35,9 @@ public class Ejercicio4 {
 
             System.out.println();
         }
+        
+        // ! Mostramos el fin del Programa
+        System.out.println("Fin del Programa");
 
         // ^ Cerramos el Scanner
         read.close();

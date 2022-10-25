@@ -13,16 +13,19 @@ public class Ejercicio5 {
         // ^ Declaramos la variable num, resultadoPositivos, resultadoNegativos, contadorNegativos, contadorCeros y contadorWhile
         long num = 0, resultadoPositivos = 0;
         double resultadoNegativos = 0, contadorNegativos = 0;
-        byte contadorCeros = 0, contadorWhile = 0;
+        byte contadorCeros = 0, contadorWhile = 0, contadorNum = 1;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos el numero al usuario
+        System.out.println("Introduce 10 numeros: ");
+
         // ! Bucle While
         while (contadorWhile != 10){
             // ! Pedimos el numero
-            System.out.print("Introduce un número: ");
+            System.out.print("[" + contadorNum + "] " + "-> ");
             num = read.nextInt();
 
             // ! Comprobamos si el numero es positivo, negativo o cero
@@ -41,15 +44,16 @@ public class Ejercicio5 {
 
             // ! Incrementamos el contadorWhile
             contadorWhile++;
+            contadorNum++;
         }
 
         // ? Triple salto de Linea
         System.out.println();System.out.println("---------------------------------------");System.out.println();
 
         // ! Mostramos el resultado al usuario 
-        System.out.println("La suma de los numeros positivos es de: " + resultadoPositivos);
-        System.out.println("La media de los numeros negativos es de: " + (resultadoNegativos / contadorNegativos));
-        System.out.println("La cantidad de ceros introducidos es de: " + contadorCeros);
+        System.out.println("La suma de los numeros positivos es de: " + resultadoPositivos); // * Suma de los positivos
+        System.out.println("La media de los numeros negativos es de: " + (resultadoNegativos / contadorNegativos)); // * Media de los negativos
+        System.out.println("La cantidad de ceros introducidos es de: " + contadorCeros); // * Cantidad de ceros
 
         // ^ Cerramos el Scanner
         read.close();

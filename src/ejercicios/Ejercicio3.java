@@ -18,6 +18,9 @@ public class Ejercicio3 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos el numero al usuario
+        System.out.print("Introduce un número a sumar: ");
+
         // ! Bucle While, mientras el numero sea positivo
         while (num >= 0){
             // ! Sumamos el numero
@@ -26,7 +29,7 @@ public class Ejercicio3 {
             contador++;
 
             // ! Pedimos el numero
-            System.out.print("Introduce un número a sumar: ");
+            System.out.print("-> ");
             num = read.nextDouble();
         }
 

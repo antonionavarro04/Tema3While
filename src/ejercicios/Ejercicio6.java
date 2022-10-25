@@ -21,6 +21,9 @@ public class Ejercicio6 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos la edad al usuario
+        System.out.println("Introduce las edades de los alumnos: ");
+
         // ! Bucle While
         while (edad >= 0){
             // ! Incrementamos el contador de los Alumnos
@@ -35,7 +38,7 @@ public class Ejercicio6 {
             resultado += edad;
             
             // ! Pedimos las edades al usuario
-            System.out.print("Introduce una edad: ");
+            System.out.print("-> ");
             edad = read.nextByte();
         }
 
@@ -43,9 +46,9 @@ public class Ejercicio6 {
         System.out.println();System.out.println("---------------------------------------");System.out.println();
 
         // ! Mostramos los resultados
-        System.out.println("La suma de todas las edades es: " + resultado);
-        System.out.println("La media de las edades es: " + (resultado / contadorAlumno));
-        System.out.println("En el centro hay " + contadorAlumno + " alumnos, de los cuales " + contadorMayor + " alumnos son mayores de edad");
+        System.out.println("La suma de todas las edades es: " + resultado); // * Suma de las edades
+        System.out.println("La media de las edades es: " + (resultado / contadorAlumno)); // * Media de las edades
+        System.out.println("En el centro hay " + contadorAlumno + " alumnos, de los cuales " + contadorMayor + " alumnos son mayores de edad"); // * Cantidad total de alumnos y mayores de edad
 
         // ^ Cerramos el Scanner
         read.close();

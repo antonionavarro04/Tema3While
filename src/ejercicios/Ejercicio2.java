@@ -17,12 +17,15 @@ public class Ejercicio2 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos el numero al usuario
+        System.out.print("Introduce un número positivo: ");
+
         // ! Hacemos el bucle While, mientras el numero sea positivo
         while (num >= 0){
             // ! Sumamos el numero
             contador++;
             // ! Pedimos el numero
-            System.out.print("Introduce un número positivo: ");
+            System.out.print("-> ");
             num = read.nextInt();
         }
 
