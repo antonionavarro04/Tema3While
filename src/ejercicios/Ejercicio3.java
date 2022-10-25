@@ -1,5 +1,5 @@
 // TESTS
-// = 
+// = Habrá que comprobar que el programa funciona correctamente, mirando que el contador se incrementa correctamente y que el resultado es el correcto
 
 package ejercicios;
 
@@ -18,7 +18,7 @@ public class Ejercicio3 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
-        // ! Bucle While
+        // ! Bucle While, mientras el numero sea positivo
         while (num >= 0){
             // ! Sumamos el numero
             resultado += num;

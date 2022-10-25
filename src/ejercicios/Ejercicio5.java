@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public class Ejercicio5 {
     public static void main(String[] args) {
-        // ? Programa el cual pida 10 numeros al usuario, cuando acabe mostrará la suma de los numeros positivos, la media de los negativos y la cantidad de cenros introducidos
+        // ? Programa el cual pida 10 numeros al usuario, cuando acabe mostrará la suma de los numeros positivos, la media de los negativos y la cantidad de ceros introducidos
         // ^ Declaramos la variable num, resultadoPositivos, resultadoNegativos, contadorNegativos, contadorCeros y contadorWhile
         long num = 0, resultadoPositivos = 0;
         double resultadoNegativos = 0, contadorNegativos = 0;
@@ -25,14 +25,14 @@ public class Ejercicio5 {
             System.out.print("Introduce un número: ");
             num = read.nextInt();
 
-            // ! Comprobamos si es par o impar
-            if (num == 0){
+            // ! Comprobamos si el numero es positivo, negativo o cero
+            if (num == 0){ // * Si el numero es 0
                 // ! Incrementamos el contador de ceros
                 contadorCeros++;
-            } else if (num > 0){
+            } else if (num > 0){ // * Si el numero es positivo
                 // ! Sumamos el numero
                 resultadoPositivos += num;
-            } else {
+            } else { // * Si el numero es negativo
                 // ! Sumamos los negativos
                 resultadoNegativos += num;
                 // ! Incrementamos el contador de negativos
@@ -41,10 +41,6 @@ public class Ejercicio5 {
 
             // ! Incrementamos el contadorWhile
             contadorWhile++;
-        }
-        
-        if (contadorNegativos == 0){
-            contadorNegativos = 1;
         }
 
         // ? Triple salto de Linea

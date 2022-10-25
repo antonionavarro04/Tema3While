@@ -1,6 +1,7 @@
 // TESTS
 // = Deberemos comprobar que Cuenta bien a los Alumnos mayores y totales
 // = Deberemos comprobar que hace bien la media y la suma
+// = Deberemos comprobar que hace el programa si no introducimos ninuna edad
 
 package ejercicios;
 
@@ -44,7 +45,7 @@ public class Ejercicio6 {
         // ! Mostramos los resultados
         System.out.println("La suma de todas las edades es: " + resultado);
         System.out.println("La media de las edades es: " + (resultado / contadorAlumno));
-        System.out.println("En el centro hay " + contadorAlumno + " alumnos , de los cuales " + contadorMayor + " alumnos son mayores de edad");
+        System.out.println("En el centro hay " + contadorAlumno + " alumnos, de los cuales " + contadorMayor + " alumnos son mayores de edad");
 
         // ^ Cerramos el Scanner
         read.close();

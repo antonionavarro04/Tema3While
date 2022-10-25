@@ -1,5 +1,5 @@
 // TESTS
-// = 
+// = Tendremos que comprobar que cuenta bien los numeros introducidos
 
 package ejercicios;
 
@@ -17,14 +17,13 @@ public class Ejercicio2 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
-        // ! Havemos el bucle While
+        // ! Hacemos el bucle While, mientras el numero sea positivo
         while (num >= 0){
             // ! Sumamos el numero
             contador++;
             // ! Pedimos el numero
             System.out.print("Introduce un número positivo: ");
             num = read.nextInt();
-
         }
 
         // ? Triple salto de Linea
