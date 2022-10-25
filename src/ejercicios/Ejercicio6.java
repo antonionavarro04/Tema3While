@@ -1,5 +1,6 @@
 // TESTS
-// = 
+// = Deberemos comprobar que Cuenta bien a los Alumnos mayores y totales
+// = Deberemos comprobar que hace bien la media y la suma
 
 package ejercicios;
 
@@ -24,7 +25,7 @@ public class Ejercicio6 {
             // ! Incrementamos el contador de los Alumnos
             contadorAlumno++;
 
-            // ! Comprobamos la edad del Alumno
+            // ! Comprobamos la edad del Alumno, de ser mayor de edad incrementaremos el contador de los mayores
             if (edad >= 18){
                 contadorMayor++;
             }
