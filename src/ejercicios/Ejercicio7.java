@@ -23,6 +23,7 @@ public class Ejercicio7 {
         System.out.println("Una vez presiones 'enter' se generará un número aleatorio del 1 al 100");
         System.out.println("Tendrás que adivinarlo, si el número es mayor te lo dirá y si es menor también");
         System.out.println("Cuando lo adivines el programa terminará");
+        System.out.println("Si introduces -1 el programa terminará y te habras rendido");
         System.out.println("¡Buena Suerte!");
         System.out.println();
         System.out.println("Presiona 'enter' para comenzar");
@@ -42,8 +43,13 @@ public class Ejercicio7 {
             // ? Salto de linea
             System.out.println();
 
-            // ! Comprobamos si es mayor o menor. Tambien puede haberlo acertado a la primera
-            if (resultadoUsuario > resultado){ // * Si es mayor
+            // ! Comprobamos si es mayor o menor. Tambien puede haberlo acertado a la primera o haberse rendido
+            if (resultadoUsuario == -1){ // * Si se rinde
+                System.out.println("---------------------------------------");System.out.println();
+                System.out.println("Te has rendido, el número era: " + resultado);
+
+                resultadoUsuario = resultado;
+            } else if (resultadoUsuario > resultado){ // * Si es mayor
                 System.out.println("El numero " + resultadoUsuario + " es mayor que el numero a adivinar");
             } else if (resultadoUsuario < resultado){ // * Si es menor
                 System.out.println("El numero " + resultadoUsuario + " es menor que el numero a adivinar");
