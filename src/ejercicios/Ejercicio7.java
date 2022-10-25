@@ -28,7 +28,7 @@ public class Ejercicio7 {
         System.out.println("Presiona 'enter' para comenzar");
 
         // ! Pulsar enter para empezar
-        read.next();
+        read.nextLine();
 
         // ? Triple salto de Linea
         System.out.println();System.out.println("---------------------------------------");System.out.println();
