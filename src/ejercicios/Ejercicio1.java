@@ -17,12 +17,16 @@ public class Ejercicio1 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos el numero al usuario
+        System.out.println("Introduce numeros a sumar ([-1] Para Salir): ");
+
         // ! Hacemos el bucle While, mientras el numero sea positivo
         while (num >= 0){
             // ! Sumamos el numero
             resultado += num;
+
             // ! Pedimos el numero
-            System.out.print("Introduce un número a sumar: ");
+            System.out.print("-> ");
             num = read.nextInt();
         }
 
