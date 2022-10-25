@@ -11,7 +11,7 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         // ? Programa el cual genere un numero aleatorio del 1 al 100, el usuario tendráque adivinarlo y el programa le dirá si el numero es mayor o menor, cuando lo adivine el programa terminará
         // ^ Declaramos la variable resultado y resultadoUsuario
-        final int resultado = (int) (Math.random() * 100 + 1)
+        final int resultado = (int) (Math.random() * 100 + 1);
         int resultadoUsuario = 0;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
@@ -38,9 +38,16 @@ public class Ejercicio7 {
             } else if (resultadoUsuario < resultado){ // * Si es menor
                 System.out.println("El numero " + resultadoUsuario + " es menor que el numero a adivinar");
             } else { // * Si es igual
+                // ? Doble salto de Linea
+                System.out.println("---------------------------------------");System.out.println();
+
                 System.out.println("Has acertado el numero");
             }
         }
 
+        // ^ Cerramos el Scanner
+        read.close();
+
+        // € Hecho por Antonio Navarro
     }
 }
