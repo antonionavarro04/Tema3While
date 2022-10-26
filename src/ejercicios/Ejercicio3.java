@@ -11,8 +11,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         // ? Programa el cual pida numeros enteros al usuario y los vaya sumando, cuando introduzca un numero negativo el programa dejará de pedir numeros y mostrará la media de los numeros introducidos
         // ^ Declaramos la variables num, resultado y contador
-        double num = 0, resultado = 0;
-        long contador = -1;
+        long num = 0, resultado = 0, contador = -1;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
         Scanner read = new Scanner(System.in);
@@ -30,7 +29,7 @@ public class Ejercicio3 {
 
             // ! Pedimos el numero
             System.out.print("-> ");
-            num = read.nextDouble();
+            num = read.nextLong();
         }
 
         // ? Triple salto de Linea
