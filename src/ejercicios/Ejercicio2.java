@@ -22,7 +22,7 @@ public class Ejercicio2 {
 
         // ! Hacemos el bucle While, mientras el numero sea positivo
         while (num >= 0){
-            // ! Sumamos el numero
+            // ! Aumentamos el contador
             contador++;
             // ! Pedimos el numero
             System.out.print("-> ");
