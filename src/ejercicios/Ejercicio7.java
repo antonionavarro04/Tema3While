@@ -11,7 +11,7 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         // ? Programa el cual genere un numero aleatorio del 1 al 100, el usuario tendráque adivinarlo y el programa le dirá si el numero es mayor o menor, cuando lo adivine el programa terminará
         // ^ Declaramos la variable resultado y resultadoUsuario
-        final int resultado = (int) (Math.random() * 100 + 1);
+        final int resultado = (int) (Math.random() * 100) + 1;
         int resultadoUsuario = 0;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
