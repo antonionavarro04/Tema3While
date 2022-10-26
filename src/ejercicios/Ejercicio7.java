@@ -61,7 +61,7 @@ public class Ejercicio7 {
             } else if (resultadoUsuario < resultado){ // * Si es menor
                 System.out.println("El numero " + resultadoUsuario + " es menor que el numero a adivinar");
             } else { // * Si es igual
-                // ? Doble salto de Linea
+                // ? Triple salto de Linea
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
                 
                 // ! Imprimimos que ha ganado y los intentos que le ha llevado a encontrar el numero
