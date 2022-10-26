@@ -65,7 +65,7 @@ public class Ejercicio7 {
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
                 
                 // ! Imprimimos que ha ganado y los intentos que le ha llevado a encontrar el numero
-                System.out.println("Has acertado el numero");
+                System.out.println("Has acertado el numero!!!");
                 System.out.println("Lo has adivinado en " + intentos + " intentos");
             }
 
