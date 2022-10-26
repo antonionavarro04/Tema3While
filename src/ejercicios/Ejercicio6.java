@@ -21,7 +21,7 @@ public class Ejercicio6 {
         read.useLocale(Locale.US);
 
         // ! Pedimos la edad al usuario
-        System.out.println("Introduce las edades de los alumnos: ");
+        System.out.println("Introduce las edades de los alumnos([-1] para salir): ");
 
         // ! Bucle While
         while (edad >= 0){
@@ -38,6 +38,9 @@ public class Ejercicio6 {
             System.out.print("-> ");
             edad = read.nextByte();
         }
+
+        // ! Si no se ha introducido ningún numero actualizaremos el contador a 1 de forma que así no se realizará la división entre 0
+        if (contadorAlumno == 0) contadorAlumno = 1;
 
         // ? Triple salto de Linea
         System.out.println();System.out.println("---------------------------------------");System.out.println();
