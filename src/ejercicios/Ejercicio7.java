@@ -54,6 +54,7 @@ public class Ejercicio7 {
                 // ? Doble salto de Linea
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
                 
+                // ! Imprimimos que ha ganado
                 System.out.println("Has acertado el numero");
             }
 
