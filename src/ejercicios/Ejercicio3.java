@@ -1,5 +1,6 @@
 // TESTS
 // = Habrá que comprobar que el programa funciona correctamente, mirando que el contador se incrementa correctamente y que el resultado es el correcto
+// = Habrá que comprobar que si no se introduce ningún número el programa no divide por cero
 
 package ejercicios;
 
