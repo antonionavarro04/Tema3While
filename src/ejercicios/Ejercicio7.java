@@ -55,6 +55,7 @@ public class Ejercicio7 {
                 // ! Mostramos el fin del Programa
                 System.out.println("Te has rendido, el número era: " + resultado + ". Hiciste " + intentos + " intentos");
 
+                // ! Igualamos el resultado para que el programa se acabe
                 resultadoUsuario = resultado;
             } else if (resultadoUsuario > resultado){ // * Si es mayor
                 System.out.println("El numero " + resultadoUsuario + " es mayor que el numero a adivinar");
