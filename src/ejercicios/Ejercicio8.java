@@ -24,7 +24,7 @@ public class Ejercicio8 {
         while (altura != -1){
             // ! Pedimos el numero
             System.out.print("[" + contadorWhile + "] " + "-> ");
-            altura = read.nextInt();
+            altura = read.nextLong();
 
             
             // ! Comprobamos si es par o impar
@@ -32,8 +32,12 @@ public class Ejercicio8 {
                 // ? Triple salto de Linea
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
                 
-                // ! Mostramos el resultado al usuario 
-                System.out.println("El árbol mas grande es el nº " + arbolMasGrande + " midiendo: " + arbolMasGrandeAltura + "cm");
+                // ! Comprabamos si a introducido algun arbol
+                if (contadorWhile == 1){ // * Si no ha introducido ningun arbol
+                    System.out.println("No has introducido ningún árbol");
+                } else { // * Si ha introducido al menos un arbol
+                    System.out.println("El árbol mas grande es el número " + arbolMasGrande + " con una altura de " + arbolMasGrandeAltura + " cm");
+                }
             } else if (altura > arbolMasGrandeAltura){
                 // ! Cambiamos el valor de arbolMasGrande
                 arbolMasGrande = contadorWhile;
