@@ -42,7 +42,7 @@ public class Ejercicio5 {
                 contadorNegativos++;
             }
 
-            // ! Incrementamos el contadorWhile
+            // ! Incrementamos el contadorWhile y contadorNum
             contadorWhile++;
             contadorNum++;
         }
