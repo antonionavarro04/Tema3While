@@ -20,12 +20,12 @@ public class Ejercicio4 {
         // ! Bucle While, mientras num sea diferente de 0
         while (num != 0){
             // ! Pedimos el numero
-            System.out.print("Introduce un número: ");
+            System.out.print("Introduce un número([0] para salir): ");
             num = read.nextInt();
 
             // ! Comprobamos si es par o impar
-            if (num == 0){
-                // ? Triple salto de Linea
+            if (num == 0){ // * Si es 0, no haremos nada y saldremos del bucle
+                // ? Doble salto de Linea
                 System.out.println();System.out.println("---------------------------------------");
             } else if (num % 2 == 0){ // * Si es par, dará 0
                 System.out.println("El numero " + num + " es par");
@@ -33,6 +33,7 @@ public class Ejercicio4 {
                 System.out.println("El numero " + num + " es impar");
             }
 
+            // ? Salto de Linea
             System.out.println();
         }
         
