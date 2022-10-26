@@ -13,6 +13,7 @@ public class Ejercicio7 {
         // ^ Declaramos la variable resultado y resultadoUsuario
         final int resultado = (int) (Math.random() * 100) + 1;
         int resultadoUsuario = 0;
+        long intentos = 0;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
         Scanner read = new Scanner(System.in);
@@ -39,11 +40,20 @@ public class Ejercicio7 {
             // ! Pedimos el numero
             System.out.print("Introduce un número: ");
             resultadoUsuario = read.nextInt();
+
+            // ! Agregamos un intento
+            intentos++;
             
             // ! Comprobamos si es mayor o menor. Tambien puede haberlo acertado a la primera o haberse rendido
             if (resultadoUsuario == -1){ // * Si se rinde
+                // ! Decrementamos los intentos en 1, ya que la rendicion no cuenta como intento
+                intentos--;
+
+                // ? Doble salto de Linea
                 System.out.println("---------------------------------------");System.out.println();
-                System.out.println("Te has rendido, el número era: " + resultado);
+
+                // ! Mostramos el fin del Programa
+                System.out.println("Te has rendido, el número era: " + resultado + ". Hiciste " + intentos + " intentos");
 
                 resultadoUsuario = resultado;
             } else if (resultadoUsuario > resultado){ // * Si es mayor
@@ -54,8 +64,9 @@ public class Ejercicio7 {
                 // ? Doble salto de Linea
                 System.out.println();System.out.println("---------------------------------------");System.out.println();
                 
-                // ! Imprimimos que ha ganado
+                // ! Imprimimos que ha ganado y los intentos que le ha llevado a encontrar el numero
                 System.out.println("Has acertado el numero");
+                System.out.println("Lo has adivinado en " + intentos + " intentos");
             }
 
             // ? Salto de linea
