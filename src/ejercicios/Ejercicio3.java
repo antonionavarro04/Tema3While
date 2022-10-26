@@ -32,6 +32,9 @@ public class Ejercicio3 {
             num = read.nextLong();
         }
 
+        // ! Si no se ha introducido ningún numero actualizaremos el contador a 1 de forma que así no se realice la división entre 0
+        if (contador == 0) contador = 1;
+
         // ? Triple salto de Linea
         System.out.println();System.out.println("---------------------------------------");System.out.println();
 
