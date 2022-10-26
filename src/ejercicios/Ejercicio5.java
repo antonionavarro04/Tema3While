@@ -12,9 +12,8 @@ public class Ejercicio5 {
     public static void main(String[] args) {
         // ? Programa el cual pida 10 numeros al usuario, cuando acabe mostrará la suma de los numeros positivos, la media de los negativos y la cantidad de ceros introducidos
         // ^ Declaramos la variable num, resultadoPositivos, resultadoNegativos, contadorNegativos, contadorCeros y contadorWhile
-        long num = 0, resultadoPositivos = 0;
-        double resultadoNegativos = 0, contadorNegativos = 0;
-        byte contadorCeros = 0, contadorWhile = 0, contadorNum = 1;
+        long num = 0, resultadoPositivos = 0, resultadoNegativos = 0;
+        byte contadorCeros = 0, contadorWhile = 0, contadorNum = 1, contadorNegativos = 0;
 
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
         Scanner read = new Scanner(System.in);
@@ -27,7 +26,7 @@ public class Ejercicio5 {
         while (contadorWhile != 10){
             // ! Pedimos el numero
             System.out.print("[" + contadorNum + "] " + "-> ");
-            num = read.nextInt();
+            num = read.nextLong();
 
             // ! Comprobamos si el numero es positivo, negativo o cero
             if (num == 0){ // * Si el numero es 0
