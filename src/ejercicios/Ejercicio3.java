@@ -18,7 +18,7 @@ public class Ejercicio3 {
         read.useLocale(Locale.US);
 
         // ! Pedimos el numero al usuario
-        System.out.print("Introduce un número a sumar: ");
+        System.out.print("Introduce un número a sumar([-1] para salir): ");
 
         // ! Bucle While, mientras el numero sea positivo
         while (num >= 0){
