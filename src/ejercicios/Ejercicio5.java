@@ -1,5 +1,6 @@
 // TESTS
-// = 
+// = Habra que comprobar que la división entre 0 no de error
+// = HHabráque comprobar que las operaciones se realizcn correctamente (DEBUG)
 
 package ejercicios;
 
