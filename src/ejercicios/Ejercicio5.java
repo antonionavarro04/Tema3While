@@ -47,6 +47,9 @@ public class Ejercicio5 {
             contadorNum++;
         }
 
+        // ! Si no se ha introducido ningún numero actualizaremos el contador a 1 de forma que así no se realice la división entre 0
+        if (contadorNegativos == 0) contadorNegativos = 1;
+
         // ? Triple salto de Linea
         System.out.println();System.out.println("---------------------------------------");System.out.println();
 
