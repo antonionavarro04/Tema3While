@@ -17,10 +17,13 @@ public class Ejercicio4 {
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
+        // ! Pedimos el numero
+        System.out.print("Introduce un número([0] para salir): ");
+
         // ! Bucle While, mientras num sea diferente de 0
         while (num != 0){
             // ! Pedimos el numero
-            System.out.print("Introduce un número([0] para salir): ");
+            System.out.print("-> ");
             num = read.nextInt();
 
             // ! Comprobamos si es par o impar
