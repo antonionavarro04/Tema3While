@@ -14,9 +14,8 @@ public class Ejercicio6 {
         // ? Programa el cual pida las edades de los alumnos, tras introducir un numero negativo mostrará la suma de las edades, la media, el nº de alumnos y cuantos son mayores de edad
         // ^ Declaramos la variable edad, resultado, contadorAlumno, contadorMayor
         byte edad = 0;
-        long contadorAlumno = -1, contadorMayor = 0;
-        double resultado = 0;
-
+        long contadorAlumno = -1, contadorMayor = 0, resultado = 0;
+        
         // ^ Creamos el Scanner en la variable read y lo cambiamos al formato US
         Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
@@ -30,9 +29,7 @@ public class Ejercicio6 {
             contadorAlumno++;
 
             // ! Comprobamos la edad del Alumno, de ser mayor de edad incrementaremos el contador de los mayores
-            if (edad >= 18){
-                contadorMayor++;
-            }
+            if (edad >= 18) contadorMayor++;
 
             // ! Sumamos las edades
             resultado += edad;
