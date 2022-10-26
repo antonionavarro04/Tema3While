@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T10:06:12.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="m3K89yvWOf-ydUgARYQE" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-26T10:10:09.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="a3i-1Naw2ueJ-NRQDXq3" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Ejercicio 1">
     <mxGraphModel dx="1240" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="583" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fmefKuCqMvJYwKzHzyjM" name="Ejercicio 6">
-    <mxGraphModel dx="1736" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,6 +540,9 @@
           <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VLsZtJfBz2-GXZ-5XFIE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-11" target="VLsZtJfBz2-GXZ-5XFIE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-11" target="VLsZtJfBz2-GXZ-5XFIE-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VLsZtJfBz2-GXZ-5XFIE-11" value="while (edad &amp;gt;= 0)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
@@ -592,8 +595,38 @@
         <mxCell id="VLsZtJfBz2-GXZ-5XFIE-25" value="out(-&amp;gt; )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="354" y="710" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-27" target="VLsZtJfBz2-GXZ-5XFIE-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="870" />
+              <mxPoint x="250" y="870" />
+              <mxPoint x="250" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VLsZtJfBz2-GXZ-5XFIE-27" value="edad = read.nextByte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="354" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-30" target="VLsZtJfBz2-GXZ-5XFIE-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-30" value="out(La suma de las edades es de + resultado)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="519" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-31" target="VLsZtJfBz2-GXZ-5XFIE-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-31" value="out(La media de las edades es de + [resultado/contadorAlumno])" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="498" y="410" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLsZtJfBz2-GXZ-5XFIE-33" target="VLsZtJfBz2-GXZ-5XFIE-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-33" value="out(En el centro hay + contadorAlumno + de los cuales hay + contadorMayor + mayores de edad)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="498" y="500" width="162" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLsZtJfBz2-GXZ-5XFIE-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="569" y="610" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
